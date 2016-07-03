@@ -1,0 +1,5 @@
+operadorLaplaciano <- matrix(c(1,1,1,1,-8,1,1,1,1), nrow=3, ncol = 3, byrow = TRUE)
+detectorHor <- matrix(c(-1,-1,-1,2,2,2,-1,-1,-1), nrow=3, ncol = 3, byrow = TRUE)
+detector45Pos <- matrix(c(2,-1,-1,-1,2,-1,-1,-1,2), nrow=3, ncol = 3, byrow = TRUE)
+detector45Neg <- matrix(c(-1,-1,2,-1,2,-1,2,-1,-1), nrow=3, ncol = 3, byrow = TRUE)
+detectorVer <- matrix(c(-1,2,-1,-1,2,-1,-1,2,-1), nrow=3, ncol = 3, byrow = TRUE)
